@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">appchaquetas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Tienda Chaquetas</string>
+    <string name="nav_header_subtitle">shopeChaquetas@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_add">Agregar</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_productos">Productos</string>
+    <string name="menu_servicios">Servicios</string>
+    <string name="menu_sucursales">Sucursales</string>
+
+
+    <string name="nameP1">Chaqueta dama</string>
+    <string name="descriptionP1">color blanco, material cuero</string>
+    <string name="precioP1">$100.000</string>
+
+    <string name="nameP2">chaqueta dama</string>
+    <string name="descriptionP2">color rojo, material cuero</string>
+    <string name="precioP2">$150.000</string>
+
+    <string name="nameP3">chaqueta unisex</string>
+    <string name="descriptionP3">color azul, material impermeable</string>
+    <string name="precioP3">$300.000</string>
+
+    <string name="nameP4">chaqueta caballero</string>
+    <string name="descriptionP4">color negro, material cuero</string>
+    <string name="precioP4">$200.000</string>
+
+    <string name="nameP5">chaqueta dama</string>
+    <string name="descriptionP5">color azul claro, material jean</string>
+    <string name="precioP5">$90.000</string>
+
+
+
+
+</resources>

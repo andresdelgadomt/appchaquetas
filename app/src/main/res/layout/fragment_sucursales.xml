@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ui.sucursales.SucursalesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--    Codigo Caja 1-->
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sucursales"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imgP1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/sucursales1" />
+
+            <TextView
+                android:id="@+id/tvNameP1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nos encontramos ubicados en las principales ciudades del pais, te invitamos a mirar nuestros showroom y conocer mas de la marca."
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="16sp"/>
+
+            <!--    Codigo Caja 2-->
+            <ImageView
+                android:id="@+id/imgP2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/sucursal2" />
+
+            <TextView
+                android:id="@+id/tvNameP2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bogota"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+            <!--    Codigo Caja 3-->
+            <ImageView
+                android:id="@+id/imgP3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/sucursal3" />
+
+            <TextView
+                android:id="@+id/tvNameP3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cartagena"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
