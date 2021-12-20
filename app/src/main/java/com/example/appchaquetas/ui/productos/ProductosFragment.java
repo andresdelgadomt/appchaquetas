@@ -10,20 +10,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 
-import com.example.appchaquetas.FormActivity;
+import com.example.appchaquetas.agregar.agregarActivity;
 import com.example.appchaquetas.R;
 import com.example.appchaquetas.adaptadores.ProductoAdapter;
 import com.example.appchaquetas.casos_uso.CasoUsoProducto;
-import com.example.appchaquetas.databinding.FragmentProductosBinding;
 import com.example.appchaquetas.datos.DBHelper;
 import com.example.appchaquetas.modelos.Producto;
 
@@ -76,7 +72,7 @@ public class ProductosFragment extends Fragment {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.action_add:
-                Intent intent = new Intent(getContext(), FormActivity.class);
+                Intent intent = new Intent(getContext(), agregarActivity.class);
                 intent.putExtra("name","PRODUCTOS");
                 getActivity().startActivity(intent);
                 //Toast.makeText(getContext(), "Hola Productos", Toast.LENGTH_SHORT).show();

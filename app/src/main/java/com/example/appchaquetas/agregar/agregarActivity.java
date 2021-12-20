@@ -1,4 +1,4 @@
-package com.example.appchaquetas;
+package com.example.appchaquetas.agregar;
 
 import android.Manifest;
 import android.content.Intent;
@@ -22,6 +22,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
+import com.example.appchaquetas.R;
 import com.example.appchaquetas.datos.DBHelper;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -29,7 +30,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-public class FormActivity extends AppCompatActivity {
+public class agregarActivity extends AppCompatActivity {
     private final int REQUEST_CODE_GALLERY = 999;
     private TextView tvTitulo;
     private EditText campo1, campo2, campo3, editId;
@@ -83,7 +84,7 @@ public class FormActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ActivityCompat.requestPermissions(
-                        FormActivity.this,
+                        agregarActivity.this,
                         new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
                         REQUEST_CODE_GALLERY
                 );

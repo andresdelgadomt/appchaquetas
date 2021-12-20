@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".ui.sucursales.SucursalesFragment">
 
     <ScrollView
@@ -38,40 +38,16 @@
                 android:textColor="#000000"
                 android:textAlignment="center"
                 android:textSize="16sp"/>
+            <org.osmdroid.views.MapView
+                android:id="@+id/openmapview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
 
-            <!--    Codigo Caja 2-->
-            <ImageView
-                android:id="@+id/imgP2"
+            <GridView
+                android:id="@+id/gridSucursales"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_weight="1"
-                android:src="@drawable/sucursal2" />
-
-            <TextView
-                android:id="@+id/tvNameP2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Bogota"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="16sp"/>
-
-            <!--    Codigo Caja 3-->
-            <ImageView
-                android:id="@+id/imgP3"
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_weight="1"
-                android:src="@drawable/sucursal3" />
-
-            <TextView
-                android:id="@+id/tvNameP3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Cartagena"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="16sp"/>
+                android:layout_height="match_parent"
+                android:numColumns="1" />
 
         </LinearLayout>
     </ScrollView>
