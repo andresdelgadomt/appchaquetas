@@ -39,7 +39,7 @@
     <string name="addNombre">Ingrese el nombre</string>
     <string name="addDireccion">Ingrese la direccion</string>
     <string name="addTelefono">Ingrese el telefono</string>
-
+    <string name="title_activity_maps">MapsActivity</string>
 
 
 </resources>
